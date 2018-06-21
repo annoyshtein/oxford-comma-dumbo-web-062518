@@ -16,3 +16,4 @@ end
 oxford_comma(["Liv"])
 oxford_comma(["Liv","Alex"])
 oxford_comma(["Liv","Alex","Emi"])
+oxford_comma(["Liv","Alex","Emi","Anna"])
