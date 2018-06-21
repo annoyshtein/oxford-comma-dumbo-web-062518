@@ -10,4 +10,4 @@ def oxford_comma(array)
   end
 end
 
-oxford_comma(["Liv"])
+oxford_comma(["Liv","Emi","Alex"])
