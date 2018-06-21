@@ -11,5 +11,3 @@ def oxford_comma(array)
     return the_string
   end
 end
-
-oxford_comma(["Kiwi"])
