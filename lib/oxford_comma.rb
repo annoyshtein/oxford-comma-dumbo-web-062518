@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  puts array[0] if array.size == 1
+  return array[0] if array.size == 1
   if array.size != 1
     the_string = ""
     for i in 1..array.size do 
