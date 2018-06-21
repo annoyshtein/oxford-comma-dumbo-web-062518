@@ -8,7 +8,7 @@ def oxford_comma(array)
       the_string << ", " if i < array.size
       the_string << "and " if i == (array.size - 1)
     end
-    puts the_string
+    return the_string
   end
 end
 
