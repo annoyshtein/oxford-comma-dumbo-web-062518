@@ -4,7 +4,7 @@ def oxford_comma(array)
     the_string = ""
     for i in 1..array.size do 
       the_string << deli_name[(i-1)] + ", "
-      line_string << " " if i < deli_name.size
+      line_string << "and " if i < deli_name.size
     end
   end
 end
