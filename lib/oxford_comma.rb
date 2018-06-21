@@ -6,6 +6,7 @@ def oxford_comma(array)
       the_string << deli_name[(i-1)] + ", "
       line_string << "and " if i == (array.size - 1)
     end
+    puts the_string
   end
 end
 
