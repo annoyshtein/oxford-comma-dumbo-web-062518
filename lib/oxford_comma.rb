@@ -1,7 +1,6 @@
 def oxford_comma(array)
-  puts "Arraysize is " + array.size.to_s
-  puts array[0] if array.size == 1
-  puts array[0] + " and " + array[1] if array.size == 2
+  return array[0] if array.size == 1
+  return array[0] + " and " + array[1] if array.size == 2
   if array.size > 2
     the_string = ""
     for i in 1..array.size do 
