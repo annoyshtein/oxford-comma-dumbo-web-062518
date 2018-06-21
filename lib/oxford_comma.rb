@@ -5,13 +5,9 @@ def oxford_comma(array)
   if array.size > 2
     the_string = ""
     for i in 1..array.size do 
-      puts i
       the_string << array[(i-1)]
-      puts the_string
       the_string << ", " if i < array.size
-      puts the_string
       the_string << "and " if i == (array.size - 1)
-      puts the_string
     end
     puts the_string
   end
